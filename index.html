@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<div class="first">
+<svg width=600 height=600 xmlns='http://www.w3.org/2000/svg'>
+    <rect x=20 y=20 rx=10 ry=10 width=560 height=560 stroke="#000" stroke-width="2px" fill=url(#color)>
+</rect>
+    <rect x=80 y=80 rx=10 ry=10 width=440 height=440 stroke="#000" stroke-width="1px" fill=url(#pat) >
+    </rect>
+    <path d='M 160,160 l 280,0 a 15 15 0 0 1 15 15 v 200 a 15 15 0 0 1 -15 15
+l -80,0 v 0,24 h 80,0 v 0,18 h 0,-280
+v 0,-18 h 80,0 v 0,-24 h -80,0 a 15 15 0 0 1 -15 -15 v 0,-200
+a 15 15 0 0 1 15 -15'  fill=url(#color) stroke="#000"></path>
+    <defs>
+        <linearGradient id="color" x1=0% y1=0% x2=100% y2=100%>
+            <stop offset=0% stop-color="#FFFFFF"></stop>
+            <stop offset=25% stop-color="#E6E6E7"></stop>
+            <stop offset=45% stop-color="#CFCFCF"></stop>
+            <stop offset=55% stop-color="#CFCFCF"></stop>
+            <stop offset=75% stop-color="#E6E6E7"></stop>
+            <stop offset=100% stop-color="#FFFFFF"></stop>
+        </linearGradient>
+    </defs>
+    <defs>
+        <pattern id="pat" width="20" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+            <circle cx="10" cy="10" r="6.5"  stroke="#000" fill=url(#color2)></circle>
+        </pattern>
+    </defs>
+    <defs>
+        <linearGradient id="color2" x1=0% y1=0% x2=100% y2=100%>
+            <stop offset=0% stop-color="#000"></stop>
+            <stop offset=100% stop-color="#8C8C8C"></stop>
+        </linearGradient>
+    </defs>
+    <rect x=160 y=175  width=280 height=200 stroke="#000" fill="none"></rect>
+</svg>
+
+</div>
+</body>
+</html>
