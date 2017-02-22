@@ -4,11 +4,9 @@
 
 }
 .first{
-margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
     width: 600px;
     height:590px;
-    border: 1px solid #000;
     margin-top: 20px;
-
 }

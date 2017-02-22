@@ -12,32 +12,35 @@
 </rect>
     <rect x=80 y=80 rx=10 ry=10 width=440 height=440 stroke="#000" stroke-width="1px" fill=url(#pat) >
     </rect>
+    <text x="80" y="55" fill=url(#color) font-family="Arial" font-weight="bold" stroke="#000" style="font-size: 30px">HOMEWORK</text>
     <path d='M 160,160 l 280,0 a 15 15 0 0 1 15 15 v 200 a 15 15 0 0 1 -15 15
 l -80,0 v 0,24 h 80,0 v 0,18 h 0,-280
 v 0,-18 h 80,0 v 0,-24 h -80,0 a 15 15 0 0 1 -15 -15 v 0,-200
 a 15 15 0 0 1 15 -15'  fill=url(#color) stroke="#000"></path>
     <defs>
         <linearGradient id="color" x1=0% y1=0% x2=100% y2=100%>
-            <stop offset=0% stop-color="#FFFFFF"></stop>
-            <stop offset=25% stop-color="#E6E6E7"></stop>
-            <stop offset=45% stop-color="#CFCFCF"></stop>
-            <stop offset=55% stop-color="#CFCFCF"></stop>
-            <stop offset=75% stop-color="#E6E6E7"></stop>
+            <stop offset=0% stop-color="#ffffff"></stop>
+            <stop offset=25% stop-color="#a9aaab"></stop>
+            <stop offset=45% stop-color="#858585"></stop>
+            <stop offset=55% stop-color="#858585"></stop>
+            <stop offset=80% stop-color="#a9aaab"></stop>
             <stop offset=100% stop-color="#FFFFFF"></stop>
         </linearGradient>
     </defs>
     <defs>
         <pattern id="pat" width="20" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
-            <circle cx="10" cy="10" r="6.5"  stroke="#000" fill=url(#color2)></circle>
+            <circle cx="10" cy="10" r="6.5" stroke-width="2" stroke="#000" fill=url(#color2)></circle>
         </pattern>
     </defs>
     <defs>
-        <linearGradient id="color2" x1=0% y1=0% x2=100% y2=100%>
+        <linearGradient id="color2" x1=0% y1=0% x2=75% y2=100%>
             <stop offset=0% stop-color="#000"></stop>
+            <stop offset=25% stop-color="#0f0f0f"></stop>
             <stop offset=100% stop-color="#8C8C8C"></stop>
         </linearGradient>
     </defs>
-    <rect x=160 y=175  width=280 height=200 stroke="#000" fill="none"></rect>
+    <rect x=160 y=175  width=280 height=200 stroke="#000" fill=#8C8C8C></rect>
+    <path d='M 160,375 a 500 500 0 0 1  200 -200 l 80,0 v 0,200 h -280,0'  fill=#0f0f0f stroke-width="1"></path>
 </svg>
 
 </div>
